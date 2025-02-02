@@ -1,0 +1,37 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile-card">
+        <img src="your-image-url.jpg" alt="Profile Picture" data-testid="profilePicture" class="profile-picture">
+        
+        <h1 data-testid="fullName">Emminex</h1>
+        
+        <h2 data-testid="jobTitle">Frontend Developer</h2>
+        
+        <p data-testid="shortBio">
+            Passionate frontend developer with a keen eye for creating user-friendly and responsive web applications. 
+            Currently participating in the HNG internship to enhance my skills and contribute to innovative projects.
+        </p>
+        
+        <p data-testid="currentLocation">Lagos, Nigeria</p>
+        
+        <p data-testid="emailAddress">your.email@example.com</p>
+        
+        <div data-testid="socialLinks" class="social-links">
+            <a href="https://github.com/cod-emminex" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/your-handle" target="_blank">Twitter</a>
+        </div>
+        
+        <p data-testid="currentTimeUTC" id="utcTime"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

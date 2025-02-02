@@ -1,0 +1,45 @@
+/* styles.css */
+.profile-card {
+	max-width: 400px;
+	margin: 2rem auto;
+	padding: 2rem;
+	border-radius: 10px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	background-color: white;
+}
+
+.profile-picture {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 1rem;
+}
+
+.social-links {
+	margin: 1rem 0;
+}
+
+.social-links a {
+	margin: 0 10px;
+	color: #0066cc;
+	text-decoration: none;
+}
+
+.social-links a:hover {
+	text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+	.profile-card {
+		margin: 1rem;
+		padding: 1rem;
+	}
+
+	.profile-picture {
+		width: 100px;
+		height: 100px;
+	}
+}
